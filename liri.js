@@ -95,7 +95,7 @@ function getSong(songName) {
 	spotify.search({ type: 'track', query: songName, limit: 10 }, function(err, data) {
 
   		if (err) {
-    		return console.log('Error occurred: ' + err);
+    		return console.log('Error : ' + err);
   		}
  
 	if (songName === "The Sign") {
